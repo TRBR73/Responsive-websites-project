@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.header {
+  width: 100%;
+  max-height: 100px;
+  margin: 0px;
+  /*border-bottom: solid 5px grey;*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo {
+  width: 20%;
+  align-items: center;
+}
+
+.image-logo {
+  display: block;
+  margin: auto;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.name {
+  width: 80%;
+  text-align: right;
+  text-transform: uppercase;
+}
+.text-name {
+  margin: 0px;
+  margin-right:20px;
+  margin-top: 20px;
+  font-size: 2em;
+  color: #2d3c49;
+  font-weight: lighter;
+}
+
+.text {
+  margin: 0px;
+  margin-right:20px;
+  margin-bottom: 20px;
+  color: #2d3c49;
+  font-weight: bolder;
+}
+
+.picture {
+  width: 100%;
+  padding: 20px;
+}
+
+.image-central {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.project {
+  width: 33.3%;
+  text-align: center;
+}
+
+.portfolio-header {
+  width: 100%;
+  margin-left: 20px;
+  color: #7d97ad;
+  font-size: 1.7em;
+}
+
+.project-image {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
