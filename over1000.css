@@ -3,3 +3,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#project2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#project1 {
+  margin-right: 10px;
+}
+
+#project3 {
+  margin-left: 10px;
+}

@@ -1,3 +1,16 @@
 .project {
   width: 33.3%;
 }
+
+#project2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#project1 {
+  margin-right: 10px;
+}
+
+#project3 {
+  margin-left: 10px;
+}

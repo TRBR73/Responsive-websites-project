@@ -11,37 +11,46 @@
   <meta name=“viewport” content=“width=device-width, initial-scale-1”>
 </head>
 <body>
-  <div class="header">
+  <header class="header">
     <div class="logo">
-      <img class="image-logo" src="logo-udacity.svg" alt="logo">
+      <img class="image-logo" src="Images/logo-udacity.svg" alt="logo">
     </div>
     <div class="name">
       <p class="text-name">Roman Tarabrin</p>
-      <p class="text">UX designer</p>
+      <p class="text">Frontend developer</p>
     </div>
-  </div>
-  <div class="container">
-    <div class="picture">
-      <img class="image-central" src="picture.jpg" alt="olga tarabrina's photo">
-    </div>
-    <div class="portfolio-header"><p>Featured Work</p></div>
-    <div class="project">
-      <img class="project-image" src="project1.svg" alt="screenshot of 1st project">
-      <p class="project-name">Project #1</p>
-      <a class="link-to-project" href="">Link to the project</a>
+  </header>
+  <section class="container">
+    <picture class="picture">
+      <source media="(min-width: 750px)" srcset="Images/picture.jpg">
+      <img class="image-central" src="Images/picture crop.jpg" alt="south cost pathway">
+    </picture>
+    <div class="portfolio-header">
+      <h1>Featured Work</h1>
     </div>
     <div class="project">
-      <img class="project-image" src="project2.svg" alt="screenshot of 2nd project">
-      <p class="project-name">Project #2</p>
-      <a class="link-to-project" href="">Link to the project</a>
+      <div id="project1">
+        <img class="project-image" src="Images/project1.svg" alt="screenshot of 1st project">
+        <h2 class="project-name">Project #1</h2>
+        <a class="link-to-project" href="">Link to the project</a>
+      </div>
     </div>
     <div class="project">
-      <img class="project-image" src="project3.svg" alt="screenshot of 3rd project">
-      <p class="project-name">Project #3</p>
-      <a class="link-to-project" href="">Link to the project</a>
+      <div id="project2">
+        <img class="project-image" src="Images/project2.svg" alt="screenshot of 2nd project">
+        <h2 class="project-name">Project #2</h2>
+        <a class="link-to-project" href="">Link to the project</a>
+      </div>
     </div>
+    <div class="project">
+      <div id="project3">
+        <img class="project-image" src="Images/project3.svg" alt="screenshot of 3rd project">
+        <h2 class="project-name">Project #3</h2>
+        <a class="link-to-project" href="">Link to the project</a>
+      </div>
+  </section>
+  <footer>
     <div class="footer">
-    </div>
-  </div>
+  </footer>
 </body>
 </html>
