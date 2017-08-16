@@ -18,6 +18,7 @@ body {
 
 .logo {
   width: 15%;
+  min-width: 90px;
   display: block;
   margin: auto;
 }
@@ -29,17 +30,12 @@ body {
   padding-left: 10px;
 }
 
-@media only screen and (max-width: 400px) {
-  .image-logo {
-    display: none;
-  }
-}
-
 .name {
   width: 85%;
   text-align: right;
   text-transform: uppercase;
 }
+
 .text-name {
   margin: 0;
   margin-right:20px;
@@ -56,6 +52,7 @@ body {
   margin-bottom: 20px;
   color: #2d3c49;
   font-weight: bolder;
+  overflow-x: hidden;
 }
 
 .picture {
